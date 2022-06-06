@@ -1,4 +1,5 @@
-seasons = {"season2022": {"circuits":[
+seasons = {"season2022": {"circuits":
+  [
   {"circuitId": 3, "raceId": 1074},
   {"circuitId": 77, "raceId": 1075},
   {"circuitId": 1, "raceId": 1076},
@@ -22,37 +23,105 @@ seasons = {"season2022": {"circuits":[
   {"circuitId": 18, "raceId": 1094},
   {"circuitId": 24, "raceId": 1095}
    ],
-  "drivers":[
+   "constructors":
+   [
+   ],
+  "drivers":
+  [
 
-  {'driverId': 50, 'constructorName':'Red Bull', 'forename': "Max", 'surname': "Verstappen", 'contructorId': 9, 'color1': '#282d3d', 'color2': '#edd55f,'},
-  {'driverId': 815, 'constructorName':'Red Bull','forename': "Sergio", 'surname': "Pérez", 'contructorId': 9, 'color2': '#282d3d', 'color1': '#edd55f'},
+  {'driverId': 830, 'name': "Max Verstappen", 'driverRef': 1,
+  'standing': 2, 'points': 85, 'wins': 3, 'src': 'verstappen.png',
+   'constructorName':'Red Bull','contructorId': 9,
+    'color1': '#282d3d', 'color2': '#edd55f,'},
+  {'driverId': 815, 'name': "Sergio Pérez", 'driverRef': 11,
+  'standing': 3, 'points': 66, 'wins': 0, 'src': 'perez.png',
+  'constructorName':'Red Bull', 'contructorId': 9,
+   'color2': '#282d3d', 'color1': '#edd55f'},
 
-  {'driverId': 844,'constructorName':'Ferrari', 'forename': "Charles", 'surname': "Leclerc", 'contructorId': 6, 'color1': '#ffee02', 'color2': '#bd2e20'},
-  {'driverId': 832, 'constructorName':'Ferrari','forename': "Carlos", 'surname': "Sainz", 'contructorId': 6, 'color2': '#ffee02', 'color1': '#bd2e20'},
+  {'driverId': 844,'name': "Charles Leclerc", 'driverRef': 16,
+  'standing': 1, 'points': 104, 'wins': 2,'src': 'leclerc.png',
+  'constructorName':'Ferrari', 'contructorId': 6,
+   'color1': '#ffee02', 'color2': '#bd2e20'},
+  {'driverId': 832,'name': "Carlos Sainz", 'driverRef': 55, 
+  'standing': 5, 'points': 53, 'wins': 0, 'src': 'sainz.png',
+  'constructorName':'Ferrari', 'contructorId': 6,
+   'color2': '#ffee02', 'color1': '#bd2e20'},
 
-  {'driverId': 847, 'constructorName':'Mercedes','forename': "George", 'surname': "Russell", 'contructorId': 131, 'color1': '#8fdad6', 'color2': '#dadcdb'},
-  {'driverId': 1, 'constructorName':'Mercedes','forename': "Lewis", 'surname': "Hamilton", 'contructorId': 131,'color2': '#8fdad6', 'color1': '#dadcdb)'},
+  {'driverId': 847, 'name': "George Russell", 'driverRef': 63, 
+  'standing': 4, 'points': 59, 'wins': 0, 'src': 'russel.png',
+  'constructorName':'Mercedes', 'contructorId': 131,
+   'color1': '#8fdad6', 'color2': '#dadcdb'},
+  {'driverId': 1,'name': "Lewis Hamilton", 'driverRef': 44, 
+  'standing': 6, 'points': 36, 'wins': 0, 'src': 'hamilton.png',
+  'constructorName':'Mercedes', 'contructorId': 131,
+  'color2': '#8fdad6', 'color1': '#dadcdb)'},
 
-  {'driverId': 817,'constructorName':'McLaren', 'forename': "Daniel", 'surname': "Ricciardo", 'contructorId': 1, 'color1': '#ff7f00', 'color2': '#00bbea'},
-  {'driverId': 846, 'constructorName':'McLaren','forename': "Lando", 'surname': "Norris", 'contructorId': 1, 'color2': '#ff7f00', 'color1': '#00bbea'},
+  {'driverId': 817, 'name': "Daniel Ricciardo", 'driverRef': 3, 
+  'standing': 11, 'points': 11, 'wins': 0, 'src': 'ricciardo.png',
+  'constructorName':'McLaren', 'contructorId': 1,
+   'color1': '#ff7f00', 'color2': '#00bbea'},
+  {'driverId': 846, 'name': "Lando Norris", 'driverRef': 4, 
+  'standing': 7, 'points': 35, 'wins': 0, 'src': 'norris.png',
+  'constructorName':'McLaren', 'contructorId': 1,
+   'color2': '#ff7f00', 'color1': '#00bbea'},
 
-  {'driverId': 822, 'constructorName':'Alfa Romeo','forename': "Valtteri", 'surname': "Bottas", 'contructorId': 51, 'color1': '#a92427', 'color2': '#f1f2f6'},
-  {'driverId': 855, 'constructorName':'Alfa Romeo','forename': "Guanyu", 'surname': "Zhou", 'contructorId': 51, 'color2': '#a92427', 'color1': '#f1f2f6'},
+  {'driverId': 822, 'name': "Valtteri Bottas", 'driverRef': 77, 
+  'standing': 8, 'points': 30, 'wins': 0, 'src': 'bottas.png',
+  'constructorName':'Alfa Romeo', 'contructorId': 51,
+   'color1': '#a92427', 'color2': '#f1f2f6'},
+  {'driverId': 855,'forename': "Guanyu Zhou", 'driverRef': 24, 
+  'standing': 18, 'points': 1, 'wins': 0, 'src': 'zhou.png',
+  'constructorName':'Alfa Romeo', 'contructorId': 51,
+   'color2': '#a92427', 'color1': '#f1f2f6'},
 
-  {'driverId': 4, 'constructorName':'Alpine','forename': "Fernando", 'surname': "Alonso", 'contructorId': 214, 'color1': '#0d438b', 'color2': '#f945e7'},
-  {'driverId': 839, 'constructorName':'Alpine','forename': "Esteban", 'surname': "Ocon", 'contructorId': 214, 'color2': '#0d438b', 'color1': '#f945e7'},
+  {'driverId': 4, 'name': "Fernando Alonso", 'driverRef': 14, 
+  'standing': 16, 'points': 2, 'wins': 0, 'src': 'alonso.png',
+  'constructorName':'Alpine', 'contructorId': 214,
+   'color1': '#0d438b', 'color2': '#f945e7'},
+  {'driverId': 839, 'name': "Esteban Ocon", 'driverRef': 31, 
+  'standing': 9, 'points': 24, 'wins': 0, 'src': 'ocon.png',
+  'constructorName':'Alpine', 'contructorId': 214,
+   'color2': '#0d438b', 'color1': '#f945e7'},
 
-  {'driverId': 842, 'constructorName':'AlphaTauri','forename': "Pierre", 'surname': "Gasly", 'contructorId': 213, 'color1': '#092840', 'color2': '#e0e1e5'},
-  {'driverId': 852, 'constructorName':'AlphaTauri','forename': "Yuki", 'surname': "Tsunoda", 'contructorId': 213, 'color2': '#092840', 'color1': '#e0e1e5'},
+  {'driverId': 842, 'name': "Pierre Gasly", 'driverRef': 10, 
+  'standing': 13, 'points': 6, 'wins': 0, 'src': 'gasly.png',
+  'constructorName':'AlphaTauri', 'contructorId': 213,
+   'color1': '#092840', 'color2': '#e0e1e5'},
+  {'driverId': 852, 'name': "Yuki Tsunoda", 'driverRef': 22, 
+  'standing': 12, 'points': 10, 'wins': 0, 'src': 'tsunoda.png',
+  'constructorName':'AlphaTauri', 'contructorId': 213,
+   'color2': '#092840', 'color1': '#e0e1e5'},
 
-  {'driverId': 825, 'constructorName':'Haas','forename': "Kevin", 'surname': "Magnussen", 'contructorId': 210, 'color1': '#ed1d23', 'color2': '#094d9b'},
-  {'driverId': 854, 'constructorName':'Haas','forename': "Mick", 'surname': "Schumacher", 'contructorId': 210, 'color2': '#ed1d23', 'color1': '#094d9b'},
+  {'driverId': 825, 'name': "Kevin Magnussen", 'driverRef': 20, 
+  'standing': 10, 'points': 15, 'wins': 0, 'src': 'magnussen.png',
+  'constructorName':'Haas', 'contructorId': 210,
+   'color1': '#ed1d23', 'color2': '#094d9b'}, 
+  {'driverId': 854, 'name': "Mick Schumacher", 'driverRef': 47, 
+  'standing': 19, 'points': 0, 'wins': 0, 'src': 'schumacher.png',
+  'constructorName':'Haas', 'contructorId': 210,
+   'color2': '#ed1d23', 'color1': '#094d9b'},
 
-  {'driverId': 20, 'constructorName':'Aston Martin','forename': "Sebastian", 'surname': "Vettel", 'contructorId': 117, 'color1': '#00594f', 'color2': '#857929'},
-  {'driverId': 840, 'constructorName':'Aston Martin','forename': "Lance", 'surname': "Stroll", 'contructorId': 117, 'color2': '#00594f', 'color1': '#857929'},
+  {'driverId': 20, 'name': "Sebastian Vettel", 'driverRef': 5, 
+  'standing': 14, 'points': 4, 'wins': 0, 'src': 'vettel.png',
+  'constructorName':'Aston Martin', 'contructorId': 117,
+   'color1': '#00594f', 'color2': '#857929'},
+  {'driverId': 840, 'name': "Lance Stroll", 'driverRef': 18, 
+  'standing': 17, 'points': 2, 'wins': 0, 'src': 'stroll.png',
+  'constructorName':'Aston Martin', 'contructorId': 117,
+   'color2': '#00594f', 'color1': '#857929'},
+  {'driverId': 807, 'name': "Nico Hulkenberg", 'driverRef': 27, 
+  'standing': 20, 'points': 0, 'wins': 0, 'src': 'hulkenberg.png',
+  'constructorName':'Aston Martin', 'contructorId': 117,
+   'color2': '#00594f', 'color1': '#857929'},
 
-  {'driverId': 849, 'constructorName':'Williams','forename': "Nicholas", 'surname': "Latifi", 'contructorId': 3, 'color1': '#087bd9', 'color2': '#2d90ee'},
-  {'driverId': 848, 'constructorName':'Williams','forename': "Alexander", 'surname': "Albon", 'contructorId': 3, 'color2': '#087bd9', 'color1': '#2d90ee'}
+  {'driverId': 849, 'name': "Nicholas Latifi", 'driverRef': 6, 
+  'standing': 21, 'points': 0, 'wins': 0, 'src': 'latifi.png',
+  'constructorName':'Williams', 'contructorId': 3,
+   'color1': '#087bd9', 'color2': '#2d90ee'},
+  {'driverId': 848, 'name': "Alexander Albon", 'driverRef': 23, 
+  'standing': 15, 'points': 3, 'wins': 0, 'src': 'albon.png',
+  'constructorName':'Williams', 'contructorId': 3,
+   'color2': '#087bd9', 'color1': '#2d90ee'}
   ]
   },
   "season2021": 
@@ -114,3 +183,5 @@ seasons = {"season2022": {"circuits":[
   {'driverId': 841, 'forename': "Antonio", 'surname': "Giovinazzi", 'contructorId': 3, 'color2': '#087bd9', 'color1': '#2d90ee'}
   ]
   }}
+
+print(seasons)

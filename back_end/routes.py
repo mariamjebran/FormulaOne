@@ -3,7 +3,6 @@ from flask_cors import CORS
 from methods import Drivers
 from methods import Races
 from methods import Lap_Times
-from lap_times import lap_times
 from seasons import seasons
 # from pit_stops import pit_stops
 
@@ -47,4 +46,4 @@ def view_seasons():
 
 if __name__ == "__main__":
     app.run()
-
+    print(seasons)
