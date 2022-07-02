@@ -35,7 +35,7 @@ def view_lap_times_by_driver():
         new_data = Lap_Times.view_race_laps_by_driver({"race_id": data.get("raceId"),
                                                        "driver_id": driver.get("driverId"),
                                                        "stroke": driver.get("color1"),
-                                                       "surname": driver.get("surname")})
+                                                       "name": driver.get("name")})
         drivers_laps.append(new_data)
     return jsonify(drivers_laps)
 

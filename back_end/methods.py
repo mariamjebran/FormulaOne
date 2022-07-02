@@ -250,7 +250,7 @@ class Lap_Times(Base):
     @classmethod
     def view_race_laps_by_driver(cls,data):
         new_data = {"name": "", "data": [], "stroke": "", "driverId": "" }
-        new_data["name"] = data.get("surname")
+        new_data["name"] = data.get("name")
         new_data["stroke"] = data.get("stroke")
         new_data["driverId"] = data.get("driver_id")
         with Session(cls.engine) as session:
